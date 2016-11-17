@@ -1,5 +1,7 @@
 Alamofire 的抽象層
+
 其用法
+
 一般的post 跟 get
 let request = HttpRequest("target url", .Post)  //或者.Get
     request.startSynchronous { (response) in
